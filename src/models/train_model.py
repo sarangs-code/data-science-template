@@ -11,7 +11,7 @@ from sklearn.model_selection import train_test_split
 # Plot settings
 plt.style.use("fivethirtyeight")
 plt.rcParams["figure.figsize"] = (20, 5)
-plt.rcParams["figure.dpi"] = 100
+plt.rcParams["figure.dpi"] = 101
 plt.rcParams["lines.linewidth"] = 2
 
 df = pd.read_pickle("../../data/interim/03_data_features.pkl")
